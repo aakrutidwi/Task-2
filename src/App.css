@@ -1,0 +1,31 @@
+body{
+  background: linear-gradient(to right, #4286F4, #373E4B); /* Replace with your desired color values */
+  height: 100vh;
+  font-family: sans-serif;
+
+}
+
+.floating { 
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+
+
+.App{
+  text-align: center;
+  font-size: 20px;
+  color: #22C55E;
+  font-weight: bold;
+  margin-top: 20px;
+}
