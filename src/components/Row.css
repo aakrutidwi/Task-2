@@ -1,0 +1,22 @@
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.two{
+    flex-basis: 45%; /* Set the width to occupy 33.33% of the parent container */
+  width:45%;;
+    display: flex;
+    height: 100px;
+    width: 200px;
+    margin-right: 5px;
+    background-color: #ffff;
+    color: black;
+    margin: 5px;
+    border-color: blueviolet;
+}
